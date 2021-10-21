@@ -153,12 +153,13 @@ img{
     font-size: 18px;
 }
 .newsletter {
+    display: flex;
     background-color: #48BB78;
     color: white;  
     justify-content: center;
     text-align: center;
     padding: 50px;
-    
+    margin: auto;
 }
 .newsletter h3{
     text-align: center;
@@ -170,14 +171,21 @@ img{
 }
 
 .form-group{
-    position: absolute;
-    margin-left: 300px;
+    align-content: center;
+    justify-content: center;
+    float: left;
+    margin-left: 320px;
+    padding: 10px;
     
 }
 .newsletter .btn{
     background-color:#5A67D8 ;
-    position: absolute;
-     
+    float: right;
+    margin-top: 12px;
+}
+.message{
+    align-self: center;
+    margin-left: 300px;
 }
 footer{
     background-color: #4A5568;
